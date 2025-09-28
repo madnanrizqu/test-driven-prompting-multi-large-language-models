@@ -1,5 +1,14 @@
 # Improving Code Generation with Large Language Models: A Multi-Model Empirical Study of Test-Driven Prompting Effectiveness
 
+>
+> **⚠️ For MDPI Applied Sciences Reviewers**
+>
+> Here are the examples mentioned in the paper:
+>
+> - RQ2 Qualitative Analysis: https://github.com/madnanrizqu/test-driven-prompting-multi-large-language-models/blob/main/results/rq2_qualitative_analysis/summary/summary.pdf
+>
+> - Dataset Prompt Comparison: https://github.com/madnanrizqu/test-driven-prompting-multi-large-language-models/blob/main/datasets/prompt_comparison/prompt_comparison.pdf
+
 This repository contains the experimental data and analysis for a research study demonstrating how **Test-Driven Prompting (TDP)** significantly improves AI code generation across multiple programming languages and difficulty levels. All experimental data, statistical analysis, and qualitative comparisons are included.
 
 ## What is Test-Driven Prompting?
@@ -29,14 +38,6 @@ Computer Science Department, King Abdulaziz University, Jeddah, Saudi Arabia
 ## Publication Status
 
 This research is currently under review at [MDPI Applied Sciences](https://www.mdpi.com/journal/applsci), a Scopus Q2 and Web of Science SCIE Q2 journal with an Impact Factor of 2.5.
-
-### For Reviewers
-
-Here are the examples mentioned in the paper:
-
-- RQ2 Qualitative Analysis: https://github.com/madnanrizqu/test-driven-prompting-multi-large-language-models/blob/main/results/rq2_qualitative_analysis/summary/summary.pdf
-
-- Dataset Prompt Comparison: https://github.com/madnanrizqu/test-driven-prompting-multi-large-language-models/blob/main/datasets/prompt_comparison/prompt_comparison.pdf
 
 ## Repository Structure
 
