@@ -19,6 +19,13 @@ Our study tested 8 different AI models (GPT-4, Claude, Qwen) on 3 programming be
 
 The findings suggest that including test cases in your prompts to AI coding assistants can significantly improve the quality of generated code, especially for complex or ambiguous programming tasks.
 
+## Authors
+
+**Muhammad Rizqullah** (mrizqullah@stu.kau.edu.sa) and **Emad Albassam** (ealbassam@kau.edu.sa)
+Computer Science Department, King Abdulaziz University, Jeddah, Saudi Arabia
+
+*Corresponding author: Muhammad Rizqullah. Any enquiries about the research should be directed to him.*
+
 ## Publication Status
 
 This research is currently under review at [MDPI Applied Sciences](https://www.mdpi.com/journal/applsci), a Scopus Q2 and Web of Science SCIE Q2 journal with an Impact Factor of 2.5.
