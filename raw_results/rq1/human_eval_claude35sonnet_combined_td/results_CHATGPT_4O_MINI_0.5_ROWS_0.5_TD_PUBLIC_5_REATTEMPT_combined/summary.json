@@ -1,0 +1,25 @@
+{
+  "anthropic/claude-3.5-sonnet": {
+    "passed": 139,
+    "failed": 23,
+    "test_errors": 2,
+    "error": 2,
+    "generation_errors": 0,
+    "total": 164,
+    "accuracy": 84.76,
+    "runner_totals": {
+      "unique_tasks_in_runner": 164,
+      "missing_from_runner": 0,
+      "missing_task_ids": []
+    },
+    "remediation": {
+      "passed": 151,
+      "failed": 11,
+      "error": 2,
+      "test_errors": 2,
+      "generation_errors": 0,
+      "total": 164,
+      "accuracy": 92.07
+    }
+  }
+}

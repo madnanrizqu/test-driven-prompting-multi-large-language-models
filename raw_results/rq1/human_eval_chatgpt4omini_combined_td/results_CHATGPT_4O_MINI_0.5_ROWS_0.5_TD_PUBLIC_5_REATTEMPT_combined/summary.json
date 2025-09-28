@@ -1,0 +1,25 @@
+{
+  "openai/gpt-4o-mini-2024-07-18": {
+    "passed": 128,
+    "failed": 33,
+    "test_errors": 3,
+    "error": 3,
+    "generation_errors": 0,
+    "total": 164,
+    "accuracy": 78.05,
+    "runner_totals": {
+      "unique_tasks_in_runner": 164,
+      "missing_from_runner": 0,
+      "missing_task_ids": []
+    },
+    "remediation": {
+      "passed": 136,
+      "failed": 27,
+      "error": 1,
+      "test_errors": 1,
+      "generation_errors": 0,
+      "total": 164,
+      "accuracy": 82.93
+    }
+  }
+}

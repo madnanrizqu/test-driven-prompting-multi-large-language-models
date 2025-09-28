@@ -1,0 +1,25 @@
+{
+  "Qwen/Qwen2.5-Coder-7B-Instruct": {
+    "passed": 122,
+    "failed": 38,
+    "test_errors": 4,
+    "error": 4,
+    "generation_errors": 0,
+    "total": 164,
+    "accuracy": 74.39,
+    "runner_totals": {
+      "unique_tasks_in_runner": 164,
+      "missing_from_runner": 0,
+      "missing_task_ids": []
+    },
+    "remediation": {
+      "passed": 122,
+      "failed": 42,
+      "error": 0,
+      "test_errors": 0,
+      "generation_errors": 0,
+      "total": 164,
+      "accuracy": 74.39
+    }
+  }
+}
