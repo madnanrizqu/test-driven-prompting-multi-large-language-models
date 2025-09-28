@@ -1,0 +1,472 @@
+{
+  "total_comparisons": 16,
+  "td_better": 16,
+  "td_same": 0,
+  "td_worse": 0,
+  "using_remediation": false,
+  "details": {
+    "human_eval_chatgpt4o_combined": {
+      "status": "better",
+      "base_accuracy": 74.39,
+      "td_accuracy": 80.49,
+      "using_remediation": false,
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4o_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4o_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4o_combined",
+      "td_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4o_combined_td"
+    },
+    "human_eval_chatgpt4omini_combined": {
+      "status": "better",
+      "base_accuracy": 73.17,
+      "td_accuracy": 78.05,
+      "using_remediation": false,
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4omini_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4omini_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4omini_combined",
+      "td_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4omini_combined_td"
+    },
+    "human_eval_claude35haiku_combined": {
+      "status": "better",
+      "base_accuracy": 73.78,
+      "td_accuracy": 81.71,
+      "using_remediation": false,
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35haiku_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35haiku_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35haiku_combined",
+      "td_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35haiku_combined_td"
+    },
+    "human_eval_claude35sonnet_combined": {
+      "status": "better",
+      "base_accuracy": 78.66,
+      "td_accuracy": 84.76,
+      "using_remediation": false,
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35sonnet_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35sonnet_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35sonnet_combined",
+      "td_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35sonnet_combined_td"
+    },
+    "human_eval_qwen25coder14b_combined": {
+      "status": "better",
+      "base_accuracy": 73.78,
+      "td_accuracy": 82.32,
+      "using_remediation": false,
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder14b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder14b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder14b_combined",
+      "td_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder14b_combined_td"
+    },
+    "human_eval_qwen25coder32b_combined": {
+      "status": "better",
+      "base_accuracy": 75.61,
+      "td_accuracy": 82.32,
+      "using_remediation": false,
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder32b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder32b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder32b_combined",
+      "td_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder32b_combined_td"
+    },
+    "human_eval_qwen25coder3b_combined": {
+      "status": "better",
+      "base_accuracy": 69.51,
+      "td_accuracy": 73.17,
+      "using_remediation": false,
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder3b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder3b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder3b_combined",
+      "td_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder3b_combined_td"
+    },
+    "human_eval_qwen25coder7b_combined": {
+      "status": "better",
+      "base_accuracy": 71.34,
+      "td_accuracy": 74.39,
+      "using_remediation": false,
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder7b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder7b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder7b_combined",
+      "td_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder7b_combined_td"
+    },
+    "mbpp_sanitized_chatgpt4o_combined": {
+      "status": "better",
+      "base_accuracy": 72.83,
+      "td_accuracy": 86.18,
+      "using_remediation": false,
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4o_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4o_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4o_combined",
+      "td_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4o_combined_td"
+    },
+    "mbpp_sanitized_chatgpt4omini_combined": {
+      "status": "better",
+      "base_accuracy": 71.66,
+      "td_accuracy": 80.09,
+      "using_remediation": false,
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4omini_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4omini_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4omini_combined",
+      "td_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4omini_combined_td"
+    },
+    "mbpp_sanitized_claude35haiku_combined": {
+      "status": "better",
+      "base_accuracy": 75.64,
+      "td_accuracy": 85.01,
+      "using_remediation": false,
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35haiku_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35haiku_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35haiku_combined",
+      "td_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35haiku_combined_td"
+    },
+    "mbpp_sanitized_claude35sonnet_combined": {
+      "status": "better",
+      "base_accuracy": 75.41,
+      "td_accuracy": 85.95,
+      "using_remediation": false,
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35sonnet_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35sonnet_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35sonnet_combined",
+      "td_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35sonnet_combined_td"
+    },
+    "mbpp_sanitized_qwen25coder14b_combined": {
+      "status": "better",
+      "base_accuracy": 73.07,
+      "td_accuracy": 82.44,
+      "using_remediation": false,
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder14b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder14b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder14b_combined",
+      "td_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder14b_combined_td"
+    },
+    "mbpp_sanitized_qwen25coder32b_combined": {
+      "status": "better",
+      "base_accuracy": 73.07,
+      "td_accuracy": 83.37,
+      "using_remediation": false,
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder32b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder32b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder32b_combined",
+      "td_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder32b_combined_td"
+    },
+    "mbpp_sanitized_qwen25coder3b_combined": {
+      "status": "better",
+      "base_accuracy": 63.23,
+      "td_accuracy": 69.56,
+      "using_remediation": false,
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder3b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder3b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder3b_combined",
+      "td_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder3b_combined_td"
+    },
+    "mbpp_sanitized_qwen25coder7b_combined": {
+      "status": "better",
+      "base_accuracy": 68.38,
+      "td_accuracy": 77.52,
+      "using_remediation": false,
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder7b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder7b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder7b_combined",
+      "td_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder7b_combined_td"
+    }
+  },
+  "rq_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2",
+  "results_folder": "dynamic",
+  "timestamp": "2025-09-21 09:48:06",
+  "incomplete_directories": {
+    "missing_td_dirs": [],
+    "missing_summary_files": [],
+    "missing_accuracy_data": [],
+    "partial_completion_dirs": [],
+    "successful_comparisons": [
+      "human_eval_chatgpt4o_combined",
+      "human_eval_chatgpt4omini_combined",
+      "human_eval_claude35haiku_combined",
+      "human_eval_claude35sonnet_combined",
+      "human_eval_qwen25coder14b_combined",
+      "human_eval_qwen25coder32b_combined",
+      "human_eval_qwen25coder3b_combined",
+      "human_eval_qwen25coder7b_combined",
+      "mbpp_sanitized_chatgpt4o_combined",
+      "mbpp_sanitized_chatgpt4omini_combined",
+      "mbpp_sanitized_claude35haiku_combined",
+      "mbpp_sanitized_claude35sonnet_combined",
+      "mbpp_sanitized_qwen25coder14b_combined",
+      "mbpp_sanitized_qwen25coder32b_combined",
+      "mbpp_sanitized_qwen25coder3b_combined",
+      "mbpp_sanitized_qwen25coder7b_combined"
+    ],
+    "config_mismatch_dirs": [],
+    "total_directories": 16
+  },
+  "accuracy_statistics": {
+    "increases": [
+      6.099999999999994,
+      4.8799999999999955,
+      7.929999999999993,
+      6.1000000000000085,
+      8.539999999999992,
+      6.709999999999994,
+      3.6599999999999966,
+      3.049999999999997,
+      13.350000000000009,
+      8.430000000000007,
+      9.370000000000005,
+      10.540000000000006,
+      9.370000000000005,
+      10.300000000000011,
+      6.330000000000005,
+      9.14
+    ],
+    "total_increase": 123.80000000000003,
+    "avg_increase": 7.737500000000001,
+    "median_increase": 8.18,
+    "std_dev": 2.702368097305279,
+    "min_increase": 3.049999999999997,
+    "max_increase": 13.350000000000009,
+    "percentile_25": 6.100000000000005,
+    "percentile_75": 9.370000000000005,
+    "interquartile_range": 3.2699999999999996,
+    "improved_count": 16,
+    "worsened_count": 0,
+    "same_count": 0,
+    "avg_improvement_pct": 10.632400131326678,
+    "avg_regression_pct": 0,
+    "confidence_interval": [
+      6.297509686766164,
+      9.177490313233838
+    ],
+    "sorted_increases_desc": [
+      {
+        "benchmark": "mbpp_sanitized_chatgpt4o_combined",
+        "base_accuracy": 72.83,
+        "td_accuracy": 86.18,
+        "increase": 13.350000000000009,
+        "pct_change": 18.330358368804074
+      },
+      {
+        "benchmark": "mbpp_sanitized_claude35sonnet_combined",
+        "base_accuracy": 75.41,
+        "td_accuracy": 85.95,
+        "increase": 10.540000000000006,
+        "pct_change": 13.976926137117102
+      },
+      {
+        "benchmark": "mbpp_sanitized_qwen25coder32b_combined",
+        "base_accuracy": 73.07,
+        "td_accuracy": 83.37,
+        "increase": 10.300000000000011,
+        "pct_change": 14.09607225947723
+      },
+      {
+        "benchmark": "mbpp_sanitized_claude35haiku_combined",
+        "base_accuracy": 75.64,
+        "td_accuracy": 85.01,
+        "increase": 9.370000000000005,
+        "pct_change": 12.387625594923326
+      },
+      {
+        "benchmark": "mbpp_sanitized_qwen25coder14b_combined",
+        "base_accuracy": 73.07,
+        "td_accuracy": 82.44,
+        "increase": 9.370000000000005,
+        "pct_change": 12.823320104009861
+      },
+      {
+        "benchmark": "mbpp_sanitized_qwen25coder7b_combined",
+        "base_accuracy": 68.38,
+        "td_accuracy": 77.52,
+        "increase": 9.14,
+        "pct_change": 13.36648142731793
+      },
+      {
+        "benchmark": "human_eval_qwen25coder14b_combined",
+        "base_accuracy": 73.78,
+        "td_accuracy": 82.32,
+        "increase": 8.539999999999992,
+        "pct_change": 11.574952561669818
+      },
+      {
+        "benchmark": "mbpp_sanitized_chatgpt4omini_combined",
+        "base_accuracy": 71.66,
+        "td_accuracy": 80.09,
+        "increase": 8.430000000000007,
+        "pct_change": 11.763885012559317
+      },
+      {
+        "benchmark": "human_eval_claude35haiku_combined",
+        "base_accuracy": 73.78,
+        "td_accuracy": 81.71,
+        "increase": 7.929999999999993,
+        "pct_change": 10.74817023583626
+      },
+      {
+        "benchmark": "human_eval_qwen25coder32b_combined",
+        "base_accuracy": 75.61,
+        "td_accuracy": 82.32,
+        "increase": 6.709999999999994,
+        "pct_change": 8.874487501653212
+      },
+      {
+        "benchmark": "mbpp_sanitized_qwen25coder3b_combined",
+        "base_accuracy": 63.23,
+        "td_accuracy": 69.56,
+        "increase": 6.330000000000005,
+        "pct_change": 10.011070694290694
+      },
+      {
+        "benchmark": "human_eval_claude35sonnet_combined",
+        "base_accuracy": 78.66,
+        "td_accuracy": 84.76,
+        "increase": 6.1000000000000085,
+        "pct_change": 7.754894482583281
+      },
+      {
+        "benchmark": "human_eval_chatgpt4o_combined",
+        "base_accuracy": 74.39,
+        "td_accuracy": 80.49,
+        "increase": 6.099999999999994,
+        "pct_change": 8.200026885334042
+      },
+      {
+        "benchmark": "human_eval_chatgpt4omini_combined",
+        "base_accuracy": 73.17,
+        "td_accuracy": 78.05,
+        "increase": 4.8799999999999955,
+        "pct_change": 6.669400027333601
+      },
+      {
+        "benchmark": "human_eval_qwen25coder3b_combined",
+        "base_accuracy": 69.51,
+        "td_accuracy": 73.17,
+        "increase": 3.6599999999999966,
+        "pct_change": 5.265429434613719
+      },
+      {
+        "benchmark": "human_eval_qwen25coder7b_combined",
+        "base_accuracy": 71.34,
+        "td_accuracy": 74.39,
+        "increase": 3.049999999999997,
+        "pct_change": 4.275301373703388
+      }
+    ],
+    "sorted_regressions_asc": [
+      {
+        "benchmark": "human_eval_qwen25coder7b_combined",
+        "base_accuracy": 71.34,
+        "td_accuracy": 74.39,
+        "increase": 3.049999999999997,
+        "pct_change": 4.275301373703388
+      },
+      {
+        "benchmark": "human_eval_qwen25coder3b_combined",
+        "base_accuracy": 69.51,
+        "td_accuracy": 73.17,
+        "increase": 3.6599999999999966,
+        "pct_change": 5.265429434613719
+      },
+      {
+        "benchmark": "human_eval_chatgpt4omini_combined",
+        "base_accuracy": 73.17,
+        "td_accuracy": 78.05,
+        "increase": 4.8799999999999955,
+        "pct_change": 6.669400027333601
+      },
+      {
+        "benchmark": "human_eval_chatgpt4o_combined",
+        "base_accuracy": 74.39,
+        "td_accuracy": 80.49,
+        "increase": 6.099999999999994,
+        "pct_change": 8.200026885334042
+      },
+      {
+        "benchmark": "human_eval_claude35sonnet_combined",
+        "base_accuracy": 78.66,
+        "td_accuracy": 84.76,
+        "increase": 6.1000000000000085,
+        "pct_change": 7.754894482583281
+      },
+      {
+        "benchmark": "mbpp_sanitized_qwen25coder3b_combined",
+        "base_accuracy": 63.23,
+        "td_accuracy": 69.56,
+        "increase": 6.330000000000005,
+        "pct_change": 10.011070694290694
+      },
+      {
+        "benchmark": "human_eval_qwen25coder32b_combined",
+        "base_accuracy": 75.61,
+        "td_accuracy": 82.32,
+        "increase": 6.709999999999994,
+        "pct_change": 8.874487501653212
+      },
+      {
+        "benchmark": "human_eval_claude35haiku_combined",
+        "base_accuracy": 73.78,
+        "td_accuracy": 81.71,
+        "increase": 7.929999999999993,
+        "pct_change": 10.74817023583626
+      },
+      {
+        "benchmark": "mbpp_sanitized_chatgpt4omini_combined",
+        "base_accuracy": 71.66,
+        "td_accuracy": 80.09,
+        "increase": 8.430000000000007,
+        "pct_change": 11.763885012559317
+      },
+      {
+        "benchmark": "human_eval_qwen25coder14b_combined",
+        "base_accuracy": 73.78,
+        "td_accuracy": 82.32,
+        "increase": 8.539999999999992,
+        "pct_change": 11.574952561669818
+      },
+      {
+        "benchmark": "mbpp_sanitized_qwen25coder7b_combined",
+        "base_accuracy": 68.38,
+        "td_accuracy": 77.52,
+        "increase": 9.14,
+        "pct_change": 13.36648142731793
+      },
+      {
+        "benchmark": "mbpp_sanitized_claude35haiku_combined",
+        "base_accuracy": 75.64,
+        "td_accuracy": 85.01,
+        "increase": 9.370000000000005,
+        "pct_change": 12.387625594923326
+      },
+      {
+        "benchmark": "mbpp_sanitized_qwen25coder14b_combined",
+        "base_accuracy": 73.07,
+        "td_accuracy": 82.44,
+        "increase": 9.370000000000005,
+        "pct_change": 12.823320104009861
+      },
+      {
+        "benchmark": "mbpp_sanitized_qwen25coder32b_combined",
+        "base_accuracy": 73.07,
+        "td_accuracy": 83.37,
+        "increase": 10.300000000000011,
+        "pct_change": 14.09607225947723
+      },
+      {
+        "benchmark": "mbpp_sanitized_claude35sonnet_combined",
+        "base_accuracy": 75.41,
+        "td_accuracy": 85.95,
+        "increase": 10.540000000000006,
+        "pct_change": 13.976926137117102
+      },
+      {
+        "benchmark": "mbpp_sanitized_chatgpt4o_combined",
+        "base_accuracy": 72.83,
+        "td_accuracy": 86.18,
+        "increase": 13.350000000000009,
+        "pct_change": 18.330358368804074
+      }
+    ],
+    "normality_test_stat": 0.977174896934992,
+    "normality_p_value": 0.9371972290604292,
+    "is_normal": true,
+    "significance_test_type": "paired_t_test",
+    "significance_test_stat": 11.452917917015977,
+    "significance_p_value": 8.15748836897685e-09,
+    "cohens_d": 1.8349406700689905,
+    "effect_size_interpretation": "large"
+  }
+}

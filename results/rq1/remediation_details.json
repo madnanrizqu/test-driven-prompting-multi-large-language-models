@@ -1,0 +1,1183 @@
+{
+  "metadata": {
+    "rq_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2",
+    "results_folder": "dynamic",
+    "use_remediation": true,
+    "timestamp": "2025-09-21 09:48:06"
+  },
+  "results": {
+    "human_eval_chatgpt4o_combined": {
+      "using_remediation": true,
+      "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4o_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4o_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4o_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4o_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_accuracy": 84.15,
+      "td_accuracy": 89.02,
+      "accuracy_status": "better",
+      "status": "better",
+      "improved_tasks": [
+        17,
+        70,
+        81,
+        99,
+        110,
+        119,
+        130,
+        148,
+        163
+      ],
+      "regressed_tasks": [
+        10
+      ],
+      "file_paths": {
+        "base_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4o_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "td_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4o_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "base_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4o_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "base_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4o_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "td_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4o_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "td_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4o_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4o_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+        "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4o_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined"
+      },
+      "counts": {
+        "base": {
+          "success": 138,
+          "fail": 26,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        },
+        "td": {
+          "success": 146,
+          "fail": 17,
+          "error": 1,
+          "generation_errors": 0,
+          "test_errors": 1
+        },
+        "diff": {
+          "success": 8,
+          "fail": -9,
+          "error": 1,
+          "generation_errors": 0,
+          "test_errors": 1
+        }
+      }
+    },
+    "human_eval_chatgpt4omini_combined": {
+      "using_remediation": true,
+      "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4omini_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4omini_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4omini_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4omini_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_accuracy": 81.71,
+      "td_accuracy": 82.93,
+      "accuracy_status": "better",
+      "status": "better",
+      "improved_tasks": [
+        70,
+        77,
+        79,
+        83,
+        113,
+        148
+      ],
+      "regressed_tasks": [
+        10,
+        91,
+        105,
+        137
+      ],
+      "file_paths": {
+        "base_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4omini_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "td_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4omini_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "base_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4omini_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "base_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4omini_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "td_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4omini_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "td_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4omini_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4omini_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+        "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_chatgpt4omini_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined"
+      },
+      "counts": {
+        "base": {
+          "success": 134,
+          "fail": 29,
+          "error": 1,
+          "generation_errors": 0,
+          "test_errors": 1
+        },
+        "td": {
+          "success": 136,
+          "fail": 27,
+          "error": 1,
+          "generation_errors": 0,
+          "test_errors": 1
+        },
+        "diff": {
+          "success": 2,
+          "fail": -2,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        }
+      }
+    },
+    "human_eval_claude35haiku_combined": {
+      "using_remediation": true,
+      "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35haiku_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35haiku_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35haiku_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35haiku_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_accuracy": 86.59,
+      "td_accuracy": 90.85,
+      "accuracy_status": "better",
+      "status": "better",
+      "improved_tasks": [
+        50,
+        65,
+        75,
+        76,
+        84,
+        113,
+        129,
+        140,
+        148
+      ],
+      "regressed_tasks": [
+        130,
+        163
+      ],
+      "file_paths": {
+        "base_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35haiku_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "td_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35haiku_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "base_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35haiku_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "base_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35haiku_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "td_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35haiku_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "td_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35haiku_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35haiku_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+        "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35haiku_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined"
+      },
+      "counts": {
+        "base": {
+          "success": 142,
+          "fail": 22,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        },
+        "td": {
+          "success": 149,
+          "fail": 14,
+          "error": 1,
+          "generation_errors": 0,
+          "test_errors": 1
+        },
+        "diff": {
+          "success": 7,
+          "fail": -8,
+          "error": 1,
+          "generation_errors": 0,
+          "test_errors": 1
+        }
+      }
+    },
+    "human_eval_claude35sonnet_combined": {
+      "using_remediation": true,
+      "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35sonnet_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35sonnet_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35sonnet_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35sonnet_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_accuracy": 89.63,
+      "td_accuracy": 92.07,
+      "accuracy_status": "better",
+      "status": "better",
+      "improved_tasks": [
+        17,
+        50,
+        93,
+        148,
+        151
+      ],
+      "regressed_tasks": [
+        132
+      ],
+      "file_paths": {
+        "base_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35sonnet_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "td_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35sonnet_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "base_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35sonnet_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "base_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35sonnet_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "td_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35sonnet_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "td_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35sonnet_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35sonnet_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+        "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_claude35sonnet_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined"
+      },
+      "counts": {
+        "base": {
+          "success": 147,
+          "fail": 16,
+          "error": 1,
+          "generation_errors": 0,
+          "test_errors": 1
+        },
+        "td": {
+          "success": 151,
+          "fail": 11,
+          "error": 2,
+          "generation_errors": 0,
+          "test_errors": 2
+        },
+        "diff": {
+          "success": 4,
+          "fail": -5,
+          "error": 1,
+          "generation_errors": 0,
+          "test_errors": 1
+        }
+      }
+    },
+    "human_eval_qwen25coder14b_combined": {
+      "using_remediation": true,
+      "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder14b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder14b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder14b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder14b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_accuracy": 74.39,
+      "td_accuracy": 82.93,
+      "accuracy_status": "better",
+      "status": "better",
+      "improved_tasks": [
+        2,
+        10,
+        54,
+        65,
+        68,
+        70,
+        71,
+        77,
+        79,
+        83,
+        93,
+        113,
+        118,
+        120,
+        148
+      ],
+      "regressed_tasks": [
+        89
+      ],
+      "file_paths": {
+        "base_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder14b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "td_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder14b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "base_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder14b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "base_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder14b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "td_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder14b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "td_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder14b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder14b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+        "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder14b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined"
+      },
+      "counts": {
+        "base": {
+          "success": 122,
+          "fail": 41,
+          "error": 1,
+          "generation_errors": 0,
+          "test_errors": 1
+        },
+        "td": {
+          "success": 136,
+          "fail": 27,
+          "error": 1,
+          "generation_errors": 0,
+          "test_errors": 1
+        },
+        "diff": {
+          "success": 14,
+          "fail": -14,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        }
+      }
+    },
+    "human_eval_qwen25coder32b_combined": {
+      "using_remediation": true,
+      "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder32b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder32b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder32b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder32b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_accuracy": 80.49,
+      "td_accuracy": 86.59,
+      "accuracy_status": "better",
+      "status": "better",
+      "improved_tasks": [
+        17,
+        38,
+        65,
+        70,
+        72,
+        93,
+        99,
+        100,
+        102,
+        115,
+        148
+      ],
+      "regressed_tasks": [
+        10
+      ],
+      "file_paths": {
+        "base_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder32b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "td_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder32b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "base_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder32b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "base_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder32b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "td_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder32b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "td_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder32b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder32b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+        "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder32b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined"
+      },
+      "counts": {
+        "base": {
+          "success": 132,
+          "fail": 31,
+          "error": 1,
+          "generation_errors": 0,
+          "test_errors": 1
+        },
+        "td": {
+          "success": 142,
+          "fail": 21,
+          "error": 1,
+          "generation_errors": 0,
+          "test_errors": 1
+        },
+        "diff": {
+          "success": 10,
+          "fail": -10,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        }
+      }
+    },
+    "human_eval_qwen25coder3b_combined": {
+      "using_remediation": true,
+      "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder3b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder3b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder3b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder3b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_accuracy": 69.51,
+      "td_accuracy": 73.17,
+      "accuracy_status": "better",
+      "status": "better",
+      "improved_tasks": [
+        2,
+        19,
+        68,
+        77,
+        79,
+        80,
+        83,
+        102,
+        113,
+        118,
+        132,
+        134,
+        140,
+        141
+      ],
+      "regressed_tasks": [
+        8,
+        65,
+        76,
+        87,
+        89,
+        111,
+        135,
+        137
+      ],
+      "file_paths": {
+        "base_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder3b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "td_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder3b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "base_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder3b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "base_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder3b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "td_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder3b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "td_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder3b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder3b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+        "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder3b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined"
+      },
+      "counts": {
+        "base": {
+          "success": 114,
+          "fail": 50,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        },
+        "td": {
+          "success": 120,
+          "fail": 44,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        },
+        "diff": {
+          "success": 6,
+          "fail": -6,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        }
+      }
+    },
+    "human_eval_qwen25coder7b_combined": {
+      "using_remediation": true,
+      "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder7b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder7b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder7b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder7b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_accuracy": 71.34,
+      "td_accuracy": 74.39,
+      "accuracy_status": "better",
+      "status": "better",
+      "improved_tasks": [
+        2,
+        54,
+        68,
+        71,
+        77,
+        79,
+        81,
+        83,
+        86,
+        113,
+        118,
+        141,
+        147
+      ],
+      "regressed_tasks": [
+        65,
+        91,
+        120,
+        121,
+        128,
+        134,
+        137,
+        155
+      ],
+      "file_paths": {
+        "base_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder7b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "td_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder7b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "base_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder7b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "base_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder7b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "td_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder7b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "td_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder7b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder7b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+        "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/human_eval_qwen25coder7b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined"
+      },
+      "counts": {
+        "base": {
+          "success": 117,
+          "fail": 47,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        },
+        "td": {
+          "success": 122,
+          "fail": 42,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        },
+        "diff": {
+          "success": 5,
+          "fail": -5,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        }
+      }
+    },
+    "mbpp_sanitized_chatgpt4o_combined": {
+      "using_remediation": true,
+      "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4o_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4o_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4o_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4o_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_accuracy": 88.29,
+      "td_accuracy": 91.1,
+      "accuracy_status": "better",
+      "status": "better",
+      "improved_tasks": [
+        87,
+        120,
+        160,
+        248,
+        301,
+        307,
+        398,
+        415,
+        421,
+        444,
+        448,
+        580,
+        626,
+        644,
+        756,
+        769,
+        780,
+        802
+      ],
+      "regressed_tasks": [
+        126,
+        164,
+        434,
+        592,
+        610,
+        745
+      ],
+      "file_paths": {
+        "base_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4o_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "td_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4o_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "base_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4o_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "base_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4o_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "td_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4o_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "td_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4o_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4o_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+        "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4o_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined"
+      },
+      "counts": {
+        "base": {
+          "success": 377,
+          "fail": 43,
+          "error": 7,
+          "generation_errors": 0,
+          "test_errors": 7
+        },
+        "td": {
+          "success": 389,
+          "fail": 29,
+          "error": 9,
+          "generation_errors": 0,
+          "test_errors": 9
+        },
+        "diff": {
+          "success": 12,
+          "fail": -14,
+          "error": 2,
+          "generation_errors": 0,
+          "test_errors": 2
+        }
+      }
+    },
+    "mbpp_sanitized_chatgpt4omini_combined": {
+      "using_remediation": true,
+      "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4omini_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4omini_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4omini_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4omini_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_accuracy": 82.2,
+      "td_accuracy": 85.01,
+      "accuracy_status": "better",
+      "status": "better",
+      "improved_tasks": [
+        63,
+        117,
+        124,
+        160,
+        228,
+        237,
+        264,
+        278,
+        296,
+        307,
+        429,
+        434,
+        440,
+        442,
+        464,
+        472,
+        473,
+        627,
+        638,
+        734,
+        749,
+        765,
+        773
+      ],
+      "regressed_tasks": [
+        71,
+        239,
+        247,
+        279,
+        300,
+        398,
+        448,
+        584,
+        630,
+        735,
+        745
+      ],
+      "file_paths": {
+        "base_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4omini_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "td_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4omini_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "base_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4omini_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "base_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4omini_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "td_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4omini_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "td_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4omini_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4omini_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+        "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_chatgpt4omini_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined"
+      },
+      "counts": {
+        "base": {
+          "success": 351,
+          "fail": 66,
+          "error": 10,
+          "generation_errors": 0,
+          "test_errors": 10
+        },
+        "td": {
+          "success": 363,
+          "fail": 57,
+          "error": 7,
+          "generation_errors": 0,
+          "test_errors": 7
+        },
+        "diff": {
+          "success": 12,
+          "fail": -9,
+          "error": -3,
+          "generation_errors": 0,
+          "test_errors": -3
+        }
+      }
+    },
+    "mbpp_sanitized_claude35haiku_combined": {
+      "using_remediation": true,
+      "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35haiku_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35haiku_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35haiku_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35haiku_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_accuracy": 91.1,
+      "td_accuracy": 91.1,
+      "accuracy_status": "same",
+      "status": "same",
+      "improved_tasks": [
+        63,
+        84,
+        109,
+        120,
+        138,
+        237,
+        464,
+        563,
+        626,
+        644
+      ],
+      "regressed_tasks": [
+        125,
+        247,
+        284,
+        304,
+        443,
+        580,
+        581,
+        603,
+        617,
+        638
+      ],
+      "file_paths": {
+        "base_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35haiku_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "td_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35haiku_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "base_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35haiku_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "base_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35haiku_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "td_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35haiku_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "td_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35haiku_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35haiku_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+        "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35haiku_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined"
+      },
+      "counts": {
+        "base": {
+          "success": 389,
+          "fail": 31,
+          "error": 7,
+          "generation_errors": 0,
+          "test_errors": 7
+        },
+        "td": {
+          "success": 389,
+          "fail": 32,
+          "error": 6,
+          "generation_errors": 0,
+          "test_errors": 6
+        },
+        "diff": {
+          "success": 0,
+          "fail": 1,
+          "error": -1,
+          "generation_errors": 0,
+          "test_errors": -1
+        }
+      }
+    },
+    "mbpp_sanitized_claude35sonnet_combined": {
+      "using_remediation": true,
+      "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35sonnet_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35sonnet_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35sonnet_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35sonnet_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_accuracy": 92.74,
+      "td_accuracy": 94.15,
+      "accuracy_status": "better",
+      "status": "better",
+      "improved_tasks": [
+        63,
+        120,
+        125,
+        306,
+        310,
+        405,
+        429,
+        592,
+        644
+      ],
+      "regressed_tasks": [
+        304,
+        415,
+        581
+      ],
+      "file_paths": {
+        "base_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35sonnet_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "td_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35sonnet_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "base_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35sonnet_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "base_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35sonnet_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "td_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35sonnet_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "td_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35sonnet_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35sonnet_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+        "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_claude35sonnet_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined"
+      },
+      "counts": {
+        "base": {
+          "success": 396,
+          "fail": 23,
+          "error": 8,
+          "generation_errors": 0,
+          "test_errors": 8
+        },
+        "td": {
+          "success": 402,
+          "fail": 18,
+          "error": 7,
+          "generation_errors": 0,
+          "test_errors": 7
+        },
+        "diff": {
+          "success": 6,
+          "fail": -5,
+          "error": -1,
+          "generation_errors": 0,
+          "test_errors": -1
+        }
+      }
+    },
+    "mbpp_sanitized_qwen25coder14b_combined": {
+      "using_remediation": true,
+      "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder14b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder14b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder14b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder14b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_accuracy": 74.94,
+      "td_accuracy": 83.37,
+      "accuracy_status": "better",
+      "status": "better",
+      "improved_tasks": [
+        6,
+        59,
+        63,
+        91,
+        117,
+        120,
+        249,
+        259,
+        265,
+        279,
+        305,
+        390,
+        391,
+        393,
+        396,
+        429,
+        437,
+        440,
+        446,
+        448,
+        453,
+        464,
+        473,
+        475,
+        560,
+        584,
+        597,
+        610,
+        622,
+        627,
+        640,
+        721,
+        740,
+        750,
+        753,
+        773,
+        776,
+        780,
+        802
+      ],
+      "regressed_tasks": [
+        472,
+        595,
+        805
+      ],
+      "file_paths": {
+        "base_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder14b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "td_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder14b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "base_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder14b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "base_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder14b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "td_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder14b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "td_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder14b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder14b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+        "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder14b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined"
+      },
+      "counts": {
+        "base": {
+          "success": 320,
+          "fail": 104,
+          "error": 3,
+          "generation_errors": 0,
+          "test_errors": 3
+        },
+        "td": {
+          "success": 356,
+          "fail": 66,
+          "error": 3,
+          "generation_errors": 0,
+          "test_errors": 3
+        },
+        "diff": {
+          "success": 36,
+          "fail": -38,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        }
+      }
+    },
+    "mbpp_sanitized_qwen25coder32b_combined": {
+      "using_remediation": true,
+      "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder32b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder32b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder32b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder32b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_accuracy": 85.01,
+      "td_accuracy": 87.82,
+      "accuracy_status": "better",
+      "status": "better",
+      "improved_tasks": [
+        18,
+        63,
+        87,
+        120,
+        143,
+        160,
+        237,
+        252,
+        301,
+        304,
+        305,
+        307,
+        411,
+        417,
+        440,
+        443,
+        630,
+        644,
+        734,
+        749,
+        780
+      ],
+      "regressed_tasks": [
+        92,
+        164,
+        306,
+        393,
+        607,
+        615,
+        626,
+        776,
+        788
+      ],
+      "file_paths": {
+        "base_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder32b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "td_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder32b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "base_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder32b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "base_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder32b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "td_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder32b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "td_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder32b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder32b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+        "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder32b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined"
+      },
+      "counts": {
+        "base": {
+          "success": 363,
+          "fail": 51,
+          "error": 13,
+          "generation_errors": 0,
+          "test_errors": 13
+        },
+        "td": {
+          "success": 375,
+          "fail": 42,
+          "error": 10,
+          "generation_errors": 0,
+          "test_errors": 10
+        },
+        "diff": {
+          "success": 12,
+          "fail": -9,
+          "error": -3,
+          "generation_errors": 0,
+          "test_errors": -3
+        }
+      }
+    },
+    "mbpp_sanitized_qwen25coder3b_combined": {
+      "using_remediation": true,
+      "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder3b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder3b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder3b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder3b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_accuracy": 63.47,
+      "td_accuracy": 69.56,
+      "accuracy_status": "better",
+      "status": "better",
+      "improved_tasks": [
+        61,
+        84,
+        89,
+        94,
+        103,
+        117,
+        130,
+        132,
+        162,
+        265,
+        279,
+        290,
+        390,
+        391,
+        393,
+        396,
+        401,
+        406,
+        410,
+        420,
+        421,
+        429,
+        433,
+        440,
+        446,
+        450,
+        454,
+        477,
+        577,
+        585,
+        608,
+        619,
+        624,
+        626,
+        627,
+        725,
+        738,
+        739,
+        746,
+        753,
+        756,
+        757,
+        773,
+        782,
+        783,
+        785,
+        788,
+        791,
+        808
+      ],
+      "regressed_tasks": [
+        14,
+        69,
+        100,
+        111,
+        125,
+        129,
+        239,
+        244,
+        268,
+        283,
+        286,
+        295,
+        581,
+        589,
+        593,
+        620,
+        629,
+        732,
+        742,
+        754,
+        767,
+        771,
+        802
+      ],
+      "file_paths": {
+        "base_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder3b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "td_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder3b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "base_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder3b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "base_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder3b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "td_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder3b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "td_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder3b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder3b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+        "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder3b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined"
+      },
+      "counts": {
+        "base": {
+          "success": 271,
+          "fail": 155,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        },
+        "td": {
+          "success": 297,
+          "fail": 130,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        },
+        "diff": {
+          "success": 26,
+          "fail": -25,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        }
+      }
+    },
+    "mbpp_sanitized_qwen25coder7b_combined": {
+      "using_remediation": true,
+      "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder7b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder7b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+      "base_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder7b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "td_summary_path": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder7b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/summary.json",
+      "base_accuracy": 68.38,
+      "td_accuracy": 77.99,
+      "accuracy_status": "better",
+      "status": "better",
+      "improved_tasks": [
+        59,
+        67,
+        91,
+        100,
+        123,
+        130,
+        133,
+        160,
+        164,
+        167,
+        228,
+        252,
+        259,
+        265,
+        279,
+        290,
+        299,
+        391,
+        393,
+        396,
+        418,
+        421,
+        424,
+        429,
+        439,
+        440,
+        445,
+        446,
+        448,
+        452,
+        464,
+        475,
+        477,
+        562,
+        584,
+        585,
+        604,
+        614,
+        624,
+        627,
+        633,
+        641,
+        644,
+        740,
+        745,
+        749,
+        750,
+        756,
+        772,
+        773,
+        784,
+        788
+      ],
+      "regressed_tasks": [
+        63,
+        69,
+        72,
+        74,
+        87,
+        453,
+        573,
+        610,
+        622,
+        735,
+        755
+      ],
+      "file_paths": {
+        "base_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder7b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "td_passed": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder7b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_passed.json",
+        "base_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder7b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "base_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder7b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "td_fails": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder7b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_fails.json",
+        "td_errors": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder7b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined/runner_errors.json",
+        "base_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder7b_combined/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined",
+        "td_results_dir": "/Users/madnanrizqu/Code/Research/learn/thesis/experiment_runner/../rq2/mbpp_sanitized_qwen25coder7b_combined_td/results_CHATGPT_4O_MINI_0.5_ROWS_0.5_TD_PUBLIC_5_REATTEMPT_combined"
+      },
+      "counts": {
+        "base": {
+          "success": 292,
+          "fail": 135,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        },
+        "td": {
+          "success": 333,
+          "fail": 94,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        },
+        "diff": {
+          "success": 41,
+          "fail": -41,
+          "error": 0,
+          "generation_errors": 0,
+          "test_errors": 0
+        }
+      }
+    }
+  }
+}
