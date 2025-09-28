@@ -2,6 +2,10 @@
 
 This repository contains the experimental data and analysis for a research study demonstrating how **Test-Driven Prompting (TDP)** significantly improves AI code generation across multiple programming languages and difficulty levels. All experimental data, statistical analysis, and qualitative comparisons are included.
 
+## Publication Status
+
+This research is currently under review at [MDPI Applied Sciences](https://www.mdpi.com/journal/applsci), a Scopus Q2 and Web of Science SCIE Q2 journal with an Impact Factor of 2.5.
+
 ## What is Test-Driven Prompting?
 
 Instead of just asking an AI to write code, Test-Driven Prompting includes example test cases in the prompt. This helps the AI understand exactly what the code should do, similar to how human programmers use test-driven development.
