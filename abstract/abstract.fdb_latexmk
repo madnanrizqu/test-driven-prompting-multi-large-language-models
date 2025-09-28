@@ -1,0 +1,25 @@
+# Fdb version 4
+["pdflatex"] 1759059320.83683 "/Users/madnanrizqu/Code/Research/learn/thesis-mdpi-repo/abstract/abstract.tex" "abstract.pdf" "abstract" 1759059321.16418 0
+  "/Users/madnanrizqu/Code/Research/learn/thesis-mdpi-repo/abstract/abstract.tex" 1759059320.63268 1850 cc230251b51c61674892b33db905a882 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm" 1136768653 1328 5442e22a7072966dbaf88ca900acf3f0 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1136768653 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb" 1248133631 32298 c6d25bb16d1eac01ebdc6d7084126a1e ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1248133631 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls" 1738182759 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty" 1738182759 5048 0270515b828149155424600fd2d58ac5 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo" 1738182759 8448 5cf247d4bd0c7d5d711bbbdf111fae2e ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1716410060 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
+  "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
+  "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1755254441 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
+  "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1755254403 3345732 e98bf823339bddc462c0f180d2d2fe99 ""
+  "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
+  "abstract.aux" 1759059321.12468 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "abstract.tex" 1759059320.63268 1850 cc230251b51c61674892b33db905a882 ""
+  "quantitative_values.tex" 1759059095.63077 2329 f44a3fdd4ac971458d6ce1666f5e7ebd ""
+  (generated)
+  "abstract.aux"
+  "abstract.log"
+  "abstract.pdf"
+  (rewritten before read)
