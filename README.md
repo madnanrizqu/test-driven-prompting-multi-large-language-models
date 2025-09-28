@@ -30,6 +30,14 @@ Computer Science Department, King Abdulaziz University, Jeddah, Saudi Arabia
 
 This research is currently under review at [MDPI Applied Sciences](https://www.mdpi.com/journal/applsci), a Scopus Q2 and Web of Science SCIE Q2 journal with an Impact Factor of 2.5.
 
+### For Reviewers
+
+Here are the examples mentioned in the paper:
+
+- RQ2 Qualitative Analysis: https://github.com/madnanrizqu/test-driven-prompting-multi-large-language-models/blob/main/results/rq2_qualitative_analysis/summary/summary.pdf
+
+- Dataset Prompt Comparison: https://github.com/madnanrizqu/test-driven-prompting-multi-large-language-models/blob/main/datasets/prompt_comparison/prompt_comparison.tex
+
 ## Repository Structure
 
 - `datasets/` - Programming problems and test cases from HumanEval, MBPP, and Code Contests
