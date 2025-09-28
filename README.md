@@ -25,3 +25,7 @@ The findings suggest that including test cases in your prompts to AI coding assi
 - `raw_results/` - Complete experimental results for each AI model and dataset combination
 - `results/` - Statistical analysis and comparison reports
 - `abstract/` - Academic paper abstract with statistical findings
+
+## Source Code Availability
+
+Source code used to generate code with large language models, test generated code with test cases, and collect and aggregate results will be provided by the authors upon request.  
