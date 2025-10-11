@@ -1,7 +1,7 @@
 # Test-Driven Prompting for Code Generation Improvement with Multi-LLM
 
 >
-> **⚠️ For MDPI Applied Sciences Reviewers**
+> **⚠️ For MDPI Symmetry Reviewers**
 >
 > Here are the examples mentioned in the paper:
 >
@@ -36,7 +36,7 @@ Computer Science Department, King Abdulaziz University, Jeddah, Saudi Arabia
 
 ## Publication Status
 
-This research is currently under review at [MDPI Applied Sciences](https://www.mdpi.com/journal/applsci), a Scopus Q2 and Web of Science SCIE Q2 journal with an Impact Factor of 2.5.
+This research is currently under review at [MDPI Symmetry](https://www.mdpi.com/journal/symmetry), a Scopus Q2 and Web of Science SCIE Q2 journal with an Impact Factor of 2.3.
 
 ## Repository Structure
 
